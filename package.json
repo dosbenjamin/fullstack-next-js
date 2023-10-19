@@ -9,16 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^0.3.4",
+    "@hookform/resolvers": "^3.3.2",
+    "@ts-rest/core": "^3.30.4",
+    "@ts-rest/next": "^3.30.4",
+    "@ts-rest/react-query": "^3.30.4",
+    "drizzle-orm": "^0.28.6",
+    "drizzle-zod": "^0.5.1",
+    "next": "13.5.6",
+    "next-auth": "^4.24.3",
+    "postgres": "^3.4.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "react-hook-form": "^7.47.0",
+    "react-query": "^3.39.3",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6"
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
   }
 }
